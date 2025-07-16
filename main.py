@@ -2,7 +2,7 @@ from mode import *
 import argparse
 
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser()  
 
 def str2bool(v):
     return v.lower() in ('true')
